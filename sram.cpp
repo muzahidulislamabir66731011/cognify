@@ -1,18 +1,4 @@
-/*********************************************************************
- * STEP 1: Reaction Time + Movement Proxy
- *
- * Hardware:
- * - ESP32
- * - SSD1306 128x64 I2C OLED
- * - Capacitive touch pad on GPIO4
- * - HC-SR04: TRIG GPIO25, ECHO GPIO26 through voltage divider
- *
- * Notes:
- * - HC-SR04 data is logged as RAW ECHO MICROSECONDS
- * - We intentionally DO NOT convert to cm
- * - We intentionally DO NOT divide by 2
- * - Movement is calculated from changes in raw echo time
- *********************************************************************/
+
 
 #include <Wire.h>
 #include <Adafruit_GFX.h>
