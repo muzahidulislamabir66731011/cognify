@@ -575,7 +575,6 @@ void loop() {
 
     case PHASE_DONE:
       // Step 1 finished.
-      // Later you can call Step 2 from here.
       break;
   }
 }
